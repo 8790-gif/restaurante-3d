@@ -18,12 +18,12 @@ En `index.html`, buscá `const PLATOS = [`. Cada plato tiene `nombre`, `precio` 
 2. Nombralas así: `giro-cheesecake-01.webp`, `giro-cheesecake-02.webp` … `giro-cheesecake-24.webp` (el nombre del medio es el `id` del plato). Sirven también en .jpg si cambiás la extensión en el código.
 3. Subilas al repo y en el plato agregá `giro: 24`.
 
-## Agregar un plato en 3D
-1. Escaneá el plato con Polycam, KIRI Engine o Luma AI y exportalo como `.glb`.
-2. Subí el archivo al repo (por ejemplo `cheesecake.glb`).
-3. En el plato, agregá `modelo: 'cheesecake.glb'`. Aparece la pestaña **3D** para girarlo.
-
-El 3D funciona una vez publicado en GitHub Pages (abriendo el archivo con doble clic el navegador bloquea la carga del modelo).
+## Agregar un plato en 3D con realidad aumentada ("Ver en tu mesa")
+1. Escaneá el plato con una app gratuita como **KIRI Engine**, **Polycam** o **Luma AI**: caminá despacio alrededor del plato (2 o 3 vueltas a distintas alturas), con buena luz y sin brillos fuertes.
+2. Exportá el modelo como **.glb** (y, si la app lo permite, también **.usdz** para iPhone). Que pese menos de 5 MB.
+3. Subí el archivo al repo con un nombre simple, por ejemplo `cheesecake.glb`.
+4. En el plato agregá `modelo: 'cheesecake.glb'` (y opcionalmente `modeloIOS: 'cheesecake.usdz'`).
+5. Al abrir el plato aparece el visor 3D y el botón **Ver en tu mesa**, que abre la cámara y coloca el plato sobre la mesa.
 
 ## Pendiente antes de producción
 - Confirmar alérgenos con la cocina (los actuales son orientativos, deducidos de las descripciones).
