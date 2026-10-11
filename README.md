@@ -13,6 +13,11 @@ Doble clic en `index.html`. Todo está en un solo archivo (las fotos van incluid
 ## Editar la carta
 En `index.html`, buscá `const PLATOS = [`. Cada plato tiene `nombre`, `precio` (o `opciones` con varios precios), `desc`, `contiene` (alérgenos) y opcionalmente `foto` y `modelo`.
 
+## Agregar fotos 360° (girar el plato deslizando)
+1. Poné el plato sobre una mesa giratoria (o caminá alrededor) y sacá 24 fotos, una cada 15° aprox., siempre a la misma altura y distancia.
+2. Nombralas así: `giro-cheesecake-01.webp`, `giro-cheesecake-02.webp` … `giro-cheesecake-24.webp` (el nombre del medio es el `id` del plato). Sirven también en .jpg si cambiás la extensión en el código.
+3. Subilas al repo y en el plato agregá `giro: 24`.
+
 ## Agregar un plato en 3D
 1. Escaneá el plato con Polycam, KIRI Engine o Luma AI y exportalo como `.glb`.
 2. Subí el archivo al repo (por ejemplo `cheesecake.glb`).
